@@ -3,7 +3,7 @@ import Layout from "./layout";
 import HomePage from "./pages/HomePage";
 import GifPage from "./pages/GifPage";
 import AttributesPage from "./pages/AttributesPage";
-import NivaPage from "./pages/NivaPage";
+import WeaponsPage from "./pages/NivaPage";
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
                 <Route index element={<HomePage />} />
                 <Route path="/gif-animation" element={<GifPage />} />
                 <Route path="/attributes" element={<AttributesPage />} />
-                <Route path="/niva" element={<NivaPage />} />
+                <Route path="/weapons" element={<WeaponsPage />} />
             </Route>
         </Routes>
     );

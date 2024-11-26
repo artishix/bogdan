@@ -1,7 +1,7 @@
 import { useLayoutEffect, useState } from "react";
 import "./Header.scss";
 import Container from "../Container/Container";
-import stadium from "../../assets/stadium.svg";
+import stadium from "../../assets/Logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 import { IoMdClose } from "react-icons/io";
